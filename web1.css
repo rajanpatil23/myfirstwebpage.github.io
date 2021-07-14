@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');/*BOOTSTRAP    font-family: 'Poppins', sans-serif;  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap'); /*   font-family: 'Jomhuria', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&family=Poppins:wght@100&display=swap'); /* WELCOME TO     font-family: 'Overpass', sans-serif;
+font-family: 'Poppins', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Rajdhani:wght@300&display=swap');/*    font-family: 'Jomhuria', cursive;
+font-family: 'Rajdhani', sans-serif; */
+
+
+div .logo {
+    width: 40%;
+    float:left;
+background-color:white;
+    height:96px;
+    color: #f12761;
+}
+.logo p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    margin-left: 100px;
+
+}
+div .navbarlist{
+    width: 60%;
+    float:left;
+background-color: white;
+}
+
+.navbarlist ul li{
+    list-style: none;
+    float:left;
+    height: 44px;
+    
+}
+.navbarlist ul li a{
+    font-family: 'Jomhuria', 'cursive';
+    font-size:30px;
+    padding: 10px;
+    color: black;
+
+}
+.navbarlist ul{
+    float: right;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+.home{ 
+    height: 650px;
+    margin: 0;
+    background-image: url("../images/slider-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.home h1{
+    font-family: 'Overpass', sans-serif;
+}
+.home h5{
+    font-family: 'Jomhuria', 'cursive';
+    font-family: 'Rajdhani', sans-serif;
+}
+ 
+
+.welcome{
+    padding: 180px 180px;
+    font-size: 20px;
+}
+.btn{
+    padding-left: 200px;
+    margin-top: -140px;
+}
+    
+    
+.butto{
+    background:transparent;
+    color: white;
+    
+}
+.butto img{
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    border-image-slice:fill;
+    background-color:;
+    
+}
+.butto p{
+float: left;
+font-family: 'Overpass', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+
+div .lowdiv{
+        background-color: #f12761;
+        height: 170px;
+        margin-top: 67px;
+}
+
+ .lowdiv p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+
+
+.para p{
+     padding-top: 100px;
+}
+
+.service{
+    width: 100%;
+}
+ .border1{
+    border: 2px solid #f12761;
+    
+    width: 10%;
+}
+.service .ourservice {
+    text-align: center;
+    padding-top: 35px;
+   /* border-bottom: solid  #f12761;*/
+
+
+}
+.service .servicephoto{
+    margin-left: 177px;
+    padding-top: 80px;
+}
+
+
+.servicephoto .s1 .i1 , .servicephoto .s2 .i2 , .servicephoto .s3 .i1{
+    color: #f12761;
+    border-radius: 50%;
+    background:whitesmoke;
+    
+    display:block;
+    width:70px;
+    height:70px;
+
+}
+.i1 i{
+    padding-top: 18px;
+    padding-left: 18px;
+
+}
+.i2 i{
+    padding-top: 18px;
+    padding-left: 15px;
+
+}
+
+.servicephoto .s1 , .servicephoto .s2 , .servicephoto .s3 {
+    
+    width:28%;
+    float: left;
+    
+    
+
+}
+
+.servicephoto .s1 .s1in , .servicephoto .s2 .s2in  , .servicephoto .s3 .s3in  {
+    float: right;
+    padding-right: 50px;
+    margin-top: -85px;
+}
+
+.clear{
+    clear:both;
+}
+.border2{
+    width:75%;
+    margin-left: 150px;
+}
+
+.teamintro{
+        text-align: center;
+        padding-top: 30px;
+
+}
+.agent1 img, .agent2 img,.agent3 img ,.agent4 img{
+    height:200px;
+}
+
+  .agent1 , .agent2,.agent3 ,.agent4{
+    float: left;
+    margin-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.teamimage h2  , .teamimage p{
+    
+}
+.quickcontact{
+    padding-top: 150px;
+}
+.contactintro{
+    text-align: center;
+}
+
+.contactform{
+    padding-top: 40px;
+    text-align: center;
+}
+input{
+    height: 45px;
+    width:300px;
+    border-radius: 23px;
+    border:solid 2px lightgray;
+   
+    
+    
+
+}
+textarea{
+    width: 900px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 30px 30px
+}
+
+.inputcl{
+    padding:;
+}
+.textareacl{
+    padding-top: 40px;
+}
+.button2{
+    padding-top:23px;
+
+}
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #f12761;
+    border: solid 1px lightgray;
+    
+}
+
+.bottom{
+    background-color:black;
+    margin-top: 100px;
+    height: 170px;
+}
+.bottom i{
+  
+    color: rgb(102, 102, 89);
+
+}
+.socialicon{
+    padding-left:  690px;
+    padding-top: 50px;
+}
+.copyright{
+    padding-left:  640px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+.bottom i:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
